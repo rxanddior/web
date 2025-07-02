@@ -1,9 +1,10 @@
 header{
-    background-color: red;
+    background-color: crimson;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 15px;
+    padding: 20px 0;
+    border-radius: 8px;
 }
 
 nav ul{
@@ -25,6 +26,9 @@ nav ul li a{
 
 nav ul li a:hover{
     color: gray;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 main{
@@ -62,6 +66,48 @@ main{
     text-align: left;
 }
 
+h2{
+    text-align: center;
+    
+}
+
 h3{
     text-align: center;
+    color: crimson;
+}
+
+body{
+    background-image: url(img/fondo_body.jpg);
+}
+
+.historia{
+    text-align: justify;
+    margin: 20px 0;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main{
+    text-align: justify;
+}
+
+.imagen{
+    text-align: center;
+}
+
+footer{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.contacto{
+    display: inline-block;
+    margin: 0 15px;
+    list-style: none;
 }
